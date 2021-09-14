@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RecyclerSuggestionView">
+        <attr name="android:fontFamily" format="reference" />
+        <attr name="itemDivider" format="boolean" />
+        <attr name="itemBackground" format="reference" />
+        <attr name="historyIcon" format="reference" />
+        <attr name="suggestionIcon" format="reference" />
+        <attr name="copyIcon" format="reference" />
+        <attr name="iconTint" format="color" />
+    </declare-styleable>
+</resources>

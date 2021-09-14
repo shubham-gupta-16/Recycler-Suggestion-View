@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/image1"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_kit_history_24" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="0dp"
+        android:text="soap"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="?android:textColorPrimary"
+        android:lines="1"
+        android:ellipsize="end"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        android:layout_weight="1"/>
+
+<!--    todo @drawable/kit_icon_ripple-->
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="55dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_height="55dp"
+        android:src="@drawable/ic_kit_copy_24" />
+
+</LinearLayout>
